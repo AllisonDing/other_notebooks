@@ -13,7 +13,6 @@ This guide walks through building [Sirius](https://github.com/sirius-db/sirius) 
 - Linux (x86_64 or aarch64) with `glibc >= 2.28`
 - NVIDIA GPU, Turing or newer (compute capability 7.5+)
 - CUDA 13.x (driver 580.65.06+) or CUDA 12.x (driver 525.60.13+)
-- `io_uring` enabled (`sysctl kernel.io_uring_disabled` should return `0`)
 
 ```bash
 nvidia-smi                                         # confirm the driver works
